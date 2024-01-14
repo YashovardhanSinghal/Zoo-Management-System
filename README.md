@@ -1,15 +1,15 @@
-# Zoo-Management-System
+## Zoo-Management-System
 ASSIGNMENT-2
 Name : Yashovardhan Singhal
 Roll No : 2022591
 ______________________________________________________________________
-Overview:
+##Overview:
 The Zoo Management System is a Java application designed to manage a virtual zoo. This
 system allows administrators to add, modify, and remove attractions, set up visitor discounts,
 manage visitor information, and purchase tickets for zoo attractions. It also includes features like
 special deals and membership options that visitors can use while buying tickets.
 ______________________________________________________________________
-Command to be Used
+##Command to be Used
 Home Folder: 2022591_YashovardhanSinghal
 All the commands mentioned below should be executed in the terminal
 within the HOME_FOLDER unless otherwise specified.
@@ -21,11 +21,11 @@ Classroom and unzip it.
 5. *Run the Application*: Execute java -jar target\A2_2022591-1.0-SNAPSHOT.jar to run the
 application. Optionally, you can replace this command with java -jar <path to jar file> Main,
 where the jar file is A2_2022591-1.0-SNAPSHOT.jar.
-Alternatively:
+##Alternatively:
 1. *Navigate to the Target Folder*: Run cd target.
 2. *Run the Application*: Execute java -jar A2_2022591-1.0-SNAPSHOT.jar Main to run the
 application.
-Project Structure
+##Project Structure
 The project is organized around key classes and interfaces, including:
 1. *Admin*: Manages administrative functions, including attraction management, visitor
 discounts, and special deals.
@@ -37,9 +37,11 @@ status, price, and visitor count.
 5. *Main*: Serves as the entry point for the application and manages user interactions.
 6.*Dealable and Discountable”: Serves as two interface classes
 7.”Animals” - It is the abstract class defining different types of animals
-Functionality
-Administrative Functions
+##Functionality
+##Administrative Functions
+
 Administrators have access to several essential functions:
+
 1. *Add Attraction*: Easily add new attractions to the zoo by providing the name, description,
 and initial status (typically set as "closed").
 2. *Modify Attraction*: Update attraction details by specifying the attraction's member ID and
@@ -85,7 +87,7 @@ for all).
 i.e. 1 or 2 ) and not some arbitrary value such as string as input.
 22.The code assumes that discounts are provided as a percentage and that discounts can be
 applied to the membership cost.
-Assumptions for the Visitor Part
+##Assumptions for the Visitor Part
 1. The user part functions when there are more than 2 animals of each type.
 2. Users can view animals and attractions without purchasing a membership but cannot buy
 tickets.
@@ -114,7 +116,7 @@ implement for “buy membership option”
 entered separately
 18.Note : It is assumed that after displaying the entire menu, the user enters the correct input (
 i.e. 1 or 2 or 3 ) and not some arbitrary value such as string as input
-OOPS Concepts Used
+##OOPS Concepts Used
 1. *Polymorphism*: Achieved through the use of the Animal superclass, allowing objects of
 Mammal, Reptile, and Amphibian classes to be used as Animal objects.
 2. *Inheritance*: Mammals, Amphibians, and Reptiles inherit properties and behaviors from the
