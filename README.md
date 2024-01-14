@@ -40,7 +40,7 @@ status, price, and visitor count.
 ## Functionality
 ## Administrative Functions
 
-Administrators have access to several essential functions:
+`Administrators have access to several essential functions:`
 
 1. *Add Attraction*: Easily add new attractions to the zoo by providing the name, description,
 and initial status (typically set as "closed").
