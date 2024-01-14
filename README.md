@@ -4,7 +4,7 @@ Name : Yashovardhan Singhal
 Roll No : 2022591
 ______________________________________________________________________
 ## Overview:
-The Zoo Management System is a Java application designed to manage a virtual zoo. This
+The Zoo Management System is a 'Java' application designed to manage a virtual zoo. This
 system allows administrators to add, modify, and remove attractions, set up visitor discounts,
 manage visitor information, and purchase tickets for zoo attractions. It also includes features like
 special deals and membership options that visitors can use while buying tickets.
@@ -40,7 +40,7 @@ status, price, and visitor count.
 ## Functionality
 ## Administrative Functions
 
-'Administrators have access to several essential functions:'
+Administrators have access to several essential functions:
 
 1. *Add Attraction*: Easily add new attractions to the zoo by providing the name, description,
 and initial status (typically set as "closed").
