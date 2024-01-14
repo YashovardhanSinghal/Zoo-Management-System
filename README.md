@@ -57,7 +57,7 @@ purchase.
 8. *Modify Special Deals*: Change special deals by specifying the number of tickets and
 updating the discount percentage.
 9. *Remove Special Deals*: Eliminate special deals by specifying the number of tickets.
-Assumptions for ADMIN Part
+## Assumptions for ADMIN Part
 1. There is only one valid username and password for admin, which are "Yash" and "Yash123".
 2. Each entity (animal, deal, discount, visitor, attraction) has a unique ID.
 3. All attraction details, including name, description, price, and status, must be provided by the
@@ -87,7 +87,7 @@ for all).
 i.e. 1 or 2 ) and not some arbitrary value such as string as input.
 22.The code assumes that discounts are provided as a percentage and that discounts can be
 applied to the membership cost.
-##Assumptions for the Visitor Part
+## Assumptions for the Visitor Part
 1. The user part functions when there are more than 2 animals of each type.
 2. Users can view animals and attractions without purchasing a membership but cannot buy
 tickets.
